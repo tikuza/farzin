@@ -1,0 +1,86 @@
+body{
+
+    background-color:#fff;
+    font-size:20px;
+}
+
+.box{
+
+    width:300px;
+    height: 300px;
+    /* background:linear-gradient(45deg, yellow 30%,red 60%,gray 80%); */
+    /* background:radial-gradient(yellow,red,gray); */
+    background: red;
+    margin: 40px auto;
+    border-radius:10%;
+    box-shadow: 16px 15px 16px 7px #777070, 34px 29px 7px 18px yellow;
+    -webkit-box-shadow: 16px 15px 16px 7px #777070, 34px 29px 7px 18px yellow;
+    -moz-box-shadow: 16px 15px 16px 7px #777070, 34px 29px 7px 18px yellow;
+    transition-property: all;
+    transition-duration: 10s;
+
+}
+
+.box:hover{
+
+
+    transform: translate(100px,200px);
+    transform: translateX(-300px);
+    transform: translateY(300px);
+    transform: rotate(45deg);
+    transform: scale(2,1);
+    transform: scaleX(3);
+    transform: skew(30deg,45deg);
+
+    transform: translateY(300px) scale(2) rotate(45deg);
+    /* background:radial-gradient(green,blue,gray); */
+    background: yellow;
+    border-radius: 50%;
+
+
+}
+
+h1{
+
+    font-size:100px;
+    text-align: center;
+    /* text-shadow: 10px 5px 5px yellow;
+    -webkit-text-shadow: 10px 5px 5px yellow;
+    -moz-text-shadow: 10px 5px 5px yellow; */
+    background: linear-gradient(45deg,#1a2a6c,#b21f1f,#fdbb2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.ball{
+
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(../img/ball.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 10s;
+    transition-timing-function:ease-in ;
+    transition-delay: 2s;
+}
+.ball:hover{
+
+    transform: translateX(800px) rotate(3600deg);
+}
+
+/*
+
+animation
+video/audio
+svg
+grid
+bootstrap
+git
+sass
+jquery
+wp
+
+
+*/
